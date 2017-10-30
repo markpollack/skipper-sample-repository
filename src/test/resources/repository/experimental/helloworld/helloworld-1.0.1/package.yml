@@ -7,4 +7,4 @@ packageSourceUrl: https://github.com/markpollack/skipper-sample-repository
 packageHomeUrl: https://github.com/markpollack/skipper-sample-repository
 tags: web, demo, maven, helloworld
 maintainer: https://github.com/markpollack
-description: The app has two endpoints, /about and /greeting in English. Maven resource.
+description: The app has two endpoints, /about and /greeting in Portuguese.  Maven resource.

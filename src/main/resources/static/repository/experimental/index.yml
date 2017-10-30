@@ -7,6 +7,44 @@ name: helloworld
 version: 1.0.0
 packageSourceUrl: https://github.com/markpollack/skipper-sample-repository
 packageHomeUrl: https://github.com/markpollack/skipper-sample-repository
-tags: web, demo
+tags: web, demo, maven, helloworld
 maintainer: https://github.com/markpollack
-description: The app has two endpoint, /about and /greeting
+description: The app has two endpoints, /about and /greeting in English.  Maven resource.
+
+---
+apiVersion: v1
+kind: SkipperPackage
+origin: A sample repository to testing Skipper
+name: helloworld
+version: 1.0.1
+packageSourceUrl: https://github.com/markpollack/skipper-sample-repository
+packageHomeUrl: https://github.com/markpollack/skipper-sample-repository
+tags: web, demo, maven, helloworld
+maintainer: https://github.com/markpollack
+description: The app has two endpoints, /about and /greeting in Portuguese.  Maven resource.
+
+---
+apiVersion: v1
+kind: skipper
+origin: A sample repository for using Skipper
+name: helloworld-docker
+version: 1.0.0
+packageSourceUrl: https://github.com/markpollack/skipper-sample-repository
+packageHomeUrl: https://github.com/markpollack/skipper-sample-repository
+tags: web, demo, docker, helloworld
+maintainer: https://github.com/markpollack
+description: The app has two endpoints, /about and /greeting in English.  Docker resource.
+
+---
+apiVersion: v1
+kind: skipper
+origin: A sample repository for using Skipper
+name: helloworld-docker
+version: 1.0.1
+packageSourceUrl: https://github.com/markpollack/skipper-sample-repository
+packageHomeUrl: https://github.com/markpollack/skipper-sample-repository
+tags: web, demo, docker, helloworld
+maintainer: https://github.com/markpollack
+description: The app has two endpoints, /about and /greeting in Portuguese.  Docker resource.
+
+
