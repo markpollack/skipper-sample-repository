@@ -1,10 +1,11 @@
-apiVersion: skipper/v1
-kind: SpringBootApp
+apiVersion: skipper.spring.io/v1
+kind: SpringCloudDeployerApplication
 metadata:
   name: helloworld
   type: demo
 spec:
-  resource: maven://org.springframework.cloud.samples:spring-cloud-skipper-samples-helloworld:{{version}}
+  resource: maven://org.springframework.cloud.samples:spring-cloud-skipper-samples-helloworld
+  version: {{version}}
   applicationProperties:
     {{#spec.applicationProperties.entrySet}}
     {{key}}: {{value}}
